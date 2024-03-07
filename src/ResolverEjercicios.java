@@ -1,5 +1,3 @@
-package ciaf.prograIV.claseciclosycondicionales02.ejerciciosclase02;
-
 public class ResolverEjercicios {
 
     /*Ejercicio de Verificación de Año Bisiesto:
