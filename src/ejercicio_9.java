@@ -2,7 +2,6 @@
 Desarrolla un programa en Java que solicite al usuario ingresar dos números enteros
 positivos y luego calcule y muestre su máximo común divisor (MCD).*/
 
-
 import java.util.Scanner;
 
 public class ejercicio_9 {
