@@ -1,17 +1,17 @@
-/*Ejercicio de Validación de Contraseña:
-Crea un programa en Java que pida al usuario ingresar una contraseña. El programa debe verificar si
-la contraseña cumple con ciertos criterios de seguridad, como tener al menos 8 caracteres de longitud y contener
-al menos una letra mayúscula, una letra minúscula y un número.*/
+package practices;/*Ejercicio de Validación de Contraseña:
+
+Create a java code and prompts the user a password, the code verify if the password meet established security criteria.
+At least 8 characters in length contain one uppercase letter, lower case letter and one number*/
 
 import java.util.Scanner;
 
-public class ejercicio_4 {
+public class practice_4 {
     public static void main(String[] args) {
         try{
             int aux = 0;
             while (aux == 0) {
 
-                System.out.println("Debe tener almenos 8 caractares con minimo 1 letra Mayuscula, 1 letra minusculas y almenos un número");
+                System.out.println("It must containe at least 8 characters in lenght with a minimun of one uppercase, lower case, at least one number");
                 Scanner contra = new Scanner(System.in);
                 String contrasena = contra.nextLine();
 
@@ -33,17 +33,17 @@ public class ejercicio_4 {
                         }
                     }
                     if (mayus >= 1 && minus >= 1 && number >= 1) {
-                        System.out.println("Felicidades parcerito , metiste la contra que era");
+                        System.out.println("Congrats fella, you typed the right pass");
                         aux = 1;
                     } else {
-                        System.out.println("La contraseña debe tener minimo 1 letra Mayuscula y 1 letra minusculas y almenos un númer");
+                        System.out.println("The password must have at least 1 upper and 1 lower case letter and at least one number.");
                     }
                 } else {
-                    System.out.println("La contraseña debe tener minimo 8 caracteres - vuelva a intentarlo");
+                    System.out.println("Password must be at least 8 characters long - try again");
                 }
             }
         } catch (Exception e) {
-            System.out.println("Ups algo salio mal");
+            System.out.println("Damm what u mean?");
         }
 
 
