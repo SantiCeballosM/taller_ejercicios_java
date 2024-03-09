@@ -1,4 +1,4 @@
-/*16. . Eliminar claves:
+/*Eliminar claves:
 Escribir un programa que elimine todas las claves de un HashMap que tengan
 un valor menor que un número dado.*/
 import java.util.HashMap;

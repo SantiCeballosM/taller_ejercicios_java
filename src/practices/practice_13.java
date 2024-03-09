@@ -1,6 +1,10 @@
-/*13. Escribir un programa que encuentre el elemento máximo en un vector de enteros. es
-decir el número más grande*/
-public class ejercicio_13 {
+package practices;
+
+/*
+Develop a java code which can find the maximun element of an integer vector,
+in other words the largest number
+*/
+public class practice_13 {
     public static void main(String[] args){
         try {
             int[] nums = {5, 8, 2, 10, 3, 7, 1};
@@ -13,9 +17,9 @@ public class ejercicio_13 {
                 }
             }
 
-            System.out.println("El numero mas grande en el vector es: " + max);
+            System.out.println("The largest number in the vector is: " + max);
         } catch (Exception e) {
-            System.out.println("Uy lo siento hiciste algo mal");
+            System.out.println("that's mean!!");
         }
     }
 }
