@@ -1,19 +1,21 @@
-/*Eliminar claves:
-Escribir un programa que elimine todas las claves de un HashMap que tengan
-un valor menor que un número dado.*/
+package practices;/*
+Remove keys:
+
+Develop a java program to remove all the HashMap keys which have a value less tahn the number entered
+*/
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-public class ejercicio_16 {
+public class practice_16 {
     public static void main(String[] args){
         try{
             Map<String, Integer> HM = new HashMap<>();
 
 
-            HM.put("Uno", 10);
-            HM.put("Dos", 5);
-            HM.put("Tres", 15);
-            HM.put("Cuatro", 3);
+            HM.put("One", 10);
+            HM.put("Two", 5);
+            HM.put("Three", 15);
+            HM.put("Four", 3);
 
 
             int valorUmbral = 8;
@@ -29,9 +31,9 @@ public class ejercicio_16 {
                 }
             }
 
-            System.out.println("HashMap después de eliminar claves: " + HM);
+            System.out.println("HashMap after the key remove: " + HM);
         } catch (Exception e) {
-            System.out.println("Uy parce hiciste algo mal");
+            System.out.println("GO GO GO");
         }
     }
 }
